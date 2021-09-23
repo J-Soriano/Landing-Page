@@ -1,59 +1,117 @@
 
 * {
-  color: white;
-  background-color: black;
+  color: black;
   margin: 0;
+  padding: 0;
+
+  /*border: 1px solid red;*/
 }
 
-.c-photo{
-  display:block;
-  border: 5px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  height: 300px;
+html{
+
+}
+body {
+  background-color: yellow;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/*Nav Bar start*/
+
+nav {
+  display: flex;
+  background-color: #1F2937;
+  padding-left:  100px;
+  padding-right:  200px;
+
+}
+
+nav h1{
+  color: White;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 200px;
+  margin: 2px 0 2px 0;
+
+}
+nav a {
+  color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
+  padding-right: 30px;
+}
+/*Nav Bar end*/
+/*border: 1px solid red;*/
+/*section 1 Start*/
+.sec1{
+  display: flex;
+  background-color: #1F2937;
+  padding: 40px 100px;
+
+}
+
+.sec1 h1 {
+  color: white;
+  font-size: 36px;
+  width: 300px;
+
+}
+
+.sec1 p {
+  width: 500px;
+  
+}
+
+.pic1 {
+  background-color: gray;
   width: 200px;
-}
+  height: 100px;
+  border: 1px solid red;
 
-.food-photo {
-  display:block;
-  border: 5px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  height: 300px;
-  width: 200px;
 }
 
 
+/*section 1 end*/
+.sec2{
+  background-color: white;
 
-div {
+}
+
+.sec3{
+  background-color: #E5E7EB;
+
+}
+
+.sec4{
+  background-color: white;
+
+}
+
+footer {
+  background-color: #1F2937;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
   text-align: center;
 
 }
 
-div h1{
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-div p{
-  font-weight: bolder;
+footer p{
   padding-top: 10px;
-  margin-top: 20px;
-}
-
-div ul{
-  display: inline-block;
-  text-align: left;
-  margin-top: 16px;
-}
-div ol{
-  display: inline-block;
-  text-align: left;
-  margin-top: 16px;
-}
-
-div footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  color: white;
+  font-size: 16px;
 }
